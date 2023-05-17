@@ -1,0 +1,6 @@
+project: PROJECT_NAME
+target: replace
+duration: 600
+cmds:
+    - cmd: /src/mayhem/fuzz_replace.py
+      libfuzzer: true
